@@ -1,0 +1,327 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+.logo img {
+  width: 100pt;
+}
+.list-menu a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.btn_login {
+  padding: 0.7rem 2rem;
+  background: #ffba00;
+  border: 1px solid #ffba00;
+  color: black;
+  border-radius: 20px;
+  margin-bottom: 0.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn_login:hover {
+  background-color: #ff8900;
+}
+
+.jumbotron {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 50pt;
+}
+
+.jumbotron-text {
+  width: 50%;
+  font-weight: 500;
+  page-break-inside: auto;
+}
+.jumbotron-text h1 {
+  color: #ffba00;
+  font-size: 40pt;
+  margin-bottom: 15px;
+  font-family: "Fredoka One", cursive;
+}
+.jumbotron-text h3 {
+  color: black;
+  font-size: 20pt;
+  margin-bottom: 15px;
+  font-family: "Caveat", cursive;
+}
+.jumbotron-text p,
+.content-text p {
+  color: #8c9eb6;
+  margin: 10px 0;
+  font-family: "Cabin", sans-serif;
+}
+.jumbotron img {
+  width: 500px;
+}
+.jumbotron-text button,
+.content-text button {
+  padding: 0.7rem 2rem;
+  color: black;
+  border-radius: 20px;
+  margin-bottom: 0.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 12pt;
+}
+.btn_getStarted,
+.btn_content {
+  background: #ffba00;
+  border: 2px solid #ffba00;
+}
+.btn_contact {
+  background: white;
+  border: 2px solid #ffba00;
+}
+.btn_contact a {
+  text-decoration: none;
+  color: black;
+}
+.btn_getStarted:hover,
+.btn_content:hover {
+  background-color: white;
+  border-color: #ffba00;
+}
+.btn_contact:hover {
+  background-color: #ffba00;
+  border-color: #ffba00;
+}
+
+.logo {
+  color: #ffba00;
+}
+.cards-categories {
+  display: flex;
+  flex-direction: column;
+}
+.cards-categories h2 {
+  font-family: "Concert One", cursive;
+  font-size: 28pt;
+  text-align: center;
+}
+
+.card-categories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.15);
+  background-color: #ffe0b7;
+  border-radius: 10px;
+  padding: 14px;
+  text-align: justify;
+}
+.card img {
+  width: 80pt;
+  margin-top: 10px;
+  margin-bottom: 10pt;
+  margin-left: 75px;
+}
+
+.card h5 {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 15px;
+  margin-bottom: 10pt;
+}
+
+.boxs-categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxs-categories h2 {
+  font-family: "Concert One", cursive;
+  font-size: 28pt;
+}
+
+.box-categories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.15);
+  background-color: white;
+  border-radius: 10px;
+  padding: 14px;
+  text-align: justify;
+}
+
+.box h5 {
+  margin: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.box img {
+  width: 80px;
+  align-content: center;
+}
+.box p {
+  font-size: 15px;
+  margin-bottom: 8pt;
+}
+.box button {
+  padding: 0.4rem 1.5rem;
+  background: white;
+  border: 5px solid #ffba00;
+  background-color: #ffba00;
+  color: black;
+  border-radius: 50px;
+  margin-bottom: 0.2rem;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 12pt;
+}
+.box button:hover {
+  background-color: #ff8900;
+  border-color: #ff8900;
+}
+.content {
+  display: flex;
+  background-color: white;
+  border: 4px #ffba00;
+  border-radius: 20px;
+  padding: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 50pt;
+}
+
+.content-text {
+  width: 50%;
+  font-weight: 500;
+  page-break-inside: auto;
+}
+.content-text h2 {
+  font-family: "Nunito", sans-serif;
+}
+.content-text p {
+  text-align: justify;
+}
+.content-img img {
+  width: 300px;
+}
+footer {
+  background-color: #ffba00;
+  justify-content: space-between;
+}
+
+.footer-cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50pt;
+}
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.f-card {
+  display: flex;
+  width: 25%;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+  justify-content: center;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.f-card-link {
+  margin-left: 20px;
+}
+.f-card-link a {
+  text-decoration: none;
+  color: black;
+}
+.f-card-link li {
+  list-style-type: none;
+  margin-bottom: 5pt;
+  margin-right: 40px;
+}
+.f-card1 {
+  width: 30%;
+  margin-left: 50px;
+  padding: 10px;
+}
+.f-card1 h2 {
+  color: white;
+  font-family: "Viga", sans-serif;
+  font-size: 14pt;
+  margin-bottom: 5pt;
+}
+.f-card1 h3 {
+  color: white;
+  font-family: "Viga", sans-serif;
+  font-size: 10pt;
+  margin-bottom: 5pt;
+}
+.f-card1 p {
+  font-size: 10pt;
+}
+.f-card-social {
+  flex-direction: row;
+}
+.social-icon {
+  height: 46px;
+  width: 46px;
+  border: 1px solid white;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffba00;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.5s;
+  font-size: 18pt;
+}
+.footer-copyright {
+  margin-left: 50px;
+  color: white;
+  margin-top: 20px;
+}

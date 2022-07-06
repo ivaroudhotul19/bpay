@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  width: 80%;
+  height: 600px;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 15%;
+  height: 38rem;
+  background-color: #ffba00;
+}
+.sidebar a {
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.right_content {
+  flex-basis: 80%;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 12%;
+  background-color: white;
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.btn {
+  background-color: #ffba00;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  color: black;
+}
+.btn_s {
+  padding: 0.5rem;
+  background: ffba00;
+  border: 1px solid white;
+  width: 150px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn_s:hover {
+  background-color: white;
+  color: black;
+}
+.btn-tambah:hover,
+.btn:hover,
+.btn_signout:hover {
+  background-color: #ff8900;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+.btn-tambah {
+  margin: 20px 0 0 40px;
+  margin-left: 5px;
+}
+.btn-simpan:hover {
+  background-color: white;
+  color: black;
+}
+.btn-simpan {
+  width: 100%;
+  background-color: #ffba00;
+  border: 2.5px solid white;
+  color: white;
+}
+.content {
+  background-color: white;
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.15);
+  height: 85%;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: auto;
+}
+.content-teks {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.content-img {
+  align-items: center;
+  margin-left: 245px;
+}
+.table-data {
+  text-align: center;
+  margin: 20px auto;
+}
+.table-data th {
+  background-color: #ffba00;
+  color: white;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 5px 20px;
+}
+/* style for form input */
+.form-login {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #ffba00;
+  padding: 29px;
+  margin: 0 auto;
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.input {
+  width: 100%;
+  margin: 7px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(148, 148, 148);
+}
+.table-data img {
+  width: 120px;
+}
